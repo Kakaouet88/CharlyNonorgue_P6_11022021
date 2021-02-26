@@ -2,6 +2,8 @@
 
 So Pekocko backend API.
 
+Install nodemon, and nodemon server to launch backend server.
+
 
 Versions :
 
@@ -10,5 +12,7 @@ Angular CLI 7.0.2 /
 Node.js 10.0.0 /
 Node-sass 4.9.3
 
-  
-Works with this app : https://github.com/OpenClassrooms-Student-Center/dwj-projet6.
+
+Works with this app :
+
+https://github.com/OpenClassrooms-Student-Center/dwj-projet6#piquante
