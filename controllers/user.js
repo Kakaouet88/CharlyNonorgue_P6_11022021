@@ -1,6 +1,7 @@
 const User = require("../models/user");
 const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
+const bouncer = require("express-bouncer")(120000, 1.8e6, 5);
 
 exports.signup = (req, res, next) => {
   bcrypt
@@ -36,6 +37,7 @@ exports.login = (req, res, next) => {
               expiresIn: "2h",
             }),
           });
+          bouncer.reset(req);
         })
         .catch((error) => res.status(500).json({ error }));
     })
