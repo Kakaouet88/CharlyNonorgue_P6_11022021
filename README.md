@@ -5,6 +5,7 @@
 
 Installer (*voir la doc*) et initialiser le [Frontend](https://github.com/OpenClassrooms-Student-Center/dwj-projet6) avec ```npm start``` et se rendre sur ```localhost:4200```.
 
+Cloner ce repo https://github.com/Kakaouet88/CharlyNonorgue_P6_11022021.git<br>
 A la racine du dossier backend_SoPeckoko, créer un fichier ```.env``` qui devra contenir 2 lignes :
 
 ```
