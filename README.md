@@ -18,7 +18,7 @@ TOKEN_KEY="clé de chiffrement aléatoire"
 
 - Dans le dossier backend_SoPeckoko, ```npm install``` , puis ```nodemon serve```.<br>(*le terminal doit confirmer le lancement du serveur sur le port 3000 et la connexion à MongoDB*)
 
-### Vous pouvez utiliser l'API 👍
+#### Vous pouvez utiliser l'API 👍
 
 ## Infos
 
