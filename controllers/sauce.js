@@ -40,7 +40,7 @@ exports.modifySauce = (req, res, next) => {
   const token = req.headers.authorization.split(" ")[1];
   const decodedToken = jwt.verify(token, process.env.TOKEN_KEY);
   const userId = decodedToken.userId;
-  if (req.body.userId === userId) {
+  if (sauceObject.userId === userId) {
     // modif objet
     Sauce.updateOne(
       { _id: req.params.id },
